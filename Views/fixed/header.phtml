@@ -29,10 +29,11 @@
                     <ul class="left hide-on-med-and-down">
                         <?php if(isset($_SESSION['user']))
                          {
-                             echo "<li><a class='btn-block' href='index.php'>Home, $view->username</a></li>";
+                             echo "<li><a class='btn-block' href='index.php'>View X</a></li>";
                          }
                          else{
-                             echo "<li><a class='btn-block' href='index.php'>Home</a></li>";
+                             echo "<li><a class='btn-block' href='rubricEdit.php'>Rubric Editor</a></li>";
+                             echo "<li><a class='btn-block' href='rubricStudent.php'>Rubric Student</a></li>";
                         }?>
 
                     </ul>
