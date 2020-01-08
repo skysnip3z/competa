@@ -12,6 +12,6 @@ if(isset($_SESSION['user']))
     $view->user = $_SESSION['user'];
 }
 
-$view->pageTitle = 'Homepage';
+$view->pageTitle = 'Rubrics';
 
-require_once('Views/index.phtml');
+require_once('Views/rubricGenerated.phtml');

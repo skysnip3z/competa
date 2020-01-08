@@ -6,9 +6,9 @@
     <div class="container">
         <form name="name" method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
             <div class="input-field col s12 l12">
-                <i class="material-icons prefix">mail</i>
-                <input type="text" name="email" id="email" required>
-                <label for="email">Email</label>
+                <i class="material-icons prefix">people</i>
+                <input type="text" name="username" id="username" required>
+                <label for="username">Username</label>
             </div><br>
 
             <div class="input-field col s12 l12">
@@ -20,12 +20,12 @@
                 if (isset($_POST['submit']) && $view->err_email == true)
                 {
                     echo "<div class='left red-text' id='error_message'>
-                              <p><strong>email incorrect</strong></p></div>";
+                              <p><strong>Username incorrect</strong></p></div>";
                 }
                 else if (isset($_POST['submit']) && $view->err_password == true)
                 {
                     echo "<div class='left red-text container s12 l12' id='error_message'>
-                              <p><strong>password incorrect</strong></p></div>";
+                              <p><strong>Password incorrect</strong></p></div>";
                 }
                 else{
                     echo "<div></div>";
