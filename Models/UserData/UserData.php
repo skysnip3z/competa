@@ -7,6 +7,10 @@ class UserData
 
     public function __construct($dbRow)
     {
+        if(array_key_exists("user_id", $dbRow))
+        {
+
+        }
         $this->_user_id = $dbRow['user_id'];
         $this->_username = $dbRow['username'];
         $this->_email= $dbRow['email'];
