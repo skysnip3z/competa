@@ -22,7 +22,6 @@ class UserData
         return $this->_username;
     }
 
-
     public function getEmail()
     {
         return $this->_email;

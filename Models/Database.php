@@ -18,10 +18,10 @@ class Database
      */
     public static function getInstance()
     {
-        $username ='sgb814';
-        $password = 'Kiran1!?';
+        $username ='sgb770';
+        $password = '1e6xpAeVPP15aXi';
         $host = 'poseidon.salford.ac.uk';
-        $dbName = 'sgb814';
+        $dbName = 'sgb770';
 
         if(self::$_dbInstance === null)
         {   //checks if the PDO exists
