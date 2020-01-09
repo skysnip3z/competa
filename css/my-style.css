@@ -1,0 +1,83 @@
+/* Element-based CSS*/
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+    background-color: rgba(80,80,80,0.05);
+}
+
+/* Class-based CSS*/
+.btn:hover,.btn-large:hover {
+    filter: brightness(120%);
+}
+.card-button button{
+    margin-top: 5px;
+}
+.card-meta span{
+    margin-top: 5px;
+}
+.item-formatting a{
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 2px;
+}
+.collection-format{
+    background-color: black;
+}
+
+
+/* ID-based CSS*/
+#sp_container{
+    border: none;
+}
+
+#register-pos{
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#footer-container{
+    margin-top: 20px;
+}
+
+#ls-header div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#login-container{
+    margin-top: 30px;
+}
+
+#top-nav ul li:hover{
+    background-color: rgba(80,80,80,0.90);
+}
+#top-nav a{
+    color:white;
+}
+#category-split{
+    margin-top: 20px;
+    background-color: lightgrey;
+}
+#category-split h6{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#error_message{
+    font-size: small;
+    font-style: italic;
+    margin-left: 50px;
+}
+#error_message2{
+    font-size: 14px;
+    font-style: italic;
+    margin-left: 50px;
+}
+#btn-under-alert{
+    margin-top: 20px;
+}
+#content-container{
+    margin-top: 30px;
+}
